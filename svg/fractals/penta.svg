@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg>
+
+<svg width="207" height="130"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ev="http://www.w3.org/2001/xml-events">
+   <title data-name="star2">Star v2</title>
+
+   <defs>
+        <g id="penta_rec" data-type="fractal">
+            <line class="frdef"  x1="0"  y1="100" x2="200" y2="100" stroke="none"/>
+            <!--line class="frdef" stroke="none" x1="0" x2="200" y1="100" y2="100"/-->
+            <g class="anchor">
+            <line class="frline" x1="0"  y1="100" x2="100" y2="100" />
+            <line class="frline" x2="0" y2="100" x1="80.90169943749474" y1="41.221474770752685" />
+            <line class="frline" x1="100" y1="100" x2="19.09830056250526" y2="41.221474770752685" />
+            <line class="frline" x1="19.09830056250526" y1="41.221474770752685" x2="50" y2="136.32712640026804" />
+            <line class="frline" x2="80.90169943749474" y2="41.221474770752685" x1="50" y1="136.32712640026804" />
+            </g>
+        </g>
+   </defs>
+   <g id="name" value="koshi"/>
+   <use x="7" y="-20" fill="none" stroke="black" xlink:href="#penta_rec"/>
+</svg>
+

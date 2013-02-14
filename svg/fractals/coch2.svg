@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg>
+
+<svg width="170" height="120"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ev="http://www.w3.org/2001/xml-events">
+   <title data-name="koch2">Coch v2</title>
+
+   <defs>
+        <g id="koch_rec" data-type="fractal">
+            <line class="frdef" x1="50" y1="100" x2="200" y2="100" stroke="none"/>
+            <line class="frline" x1="50" y1="100" x2="100" y2="100" data-flipy="1" />
+            <line class="frline" x1="100" y1="100" x2="125" y2="56.69872981077807" />
+            <line class="frline" x1="125" y1="56.69872981077807" x2="150" y2="100"  data-flipy="1" />
+            <line class="frline" x1="150" y1="100" x2="200" y2="100" />
+        </g>
+   </defs>
+   <use x="-40" y="-40" id="svg_7" fill="none" stroke="black" xlink:href="#koch_rec"/>
+</svg>
+

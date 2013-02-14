@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block scripts %}
+    <script src="static/index.js"></script>
+    <link rel="stylesheet" href="static/svgfractal.css" type="text/css" />
+    <link rel="stylesheet" href="static/index.css" type="text/css" />
+{% endblock %}
+{% block body %}
+<div class="box" id="formula">
+    <div class="item">
+        <div>
+            <select id="shape_select">
+            {% for shape in shapes %}
+                <option value="{{ shape.no }}">{{ shape.title }}</option>
+            {% endfor %}
+            </select>
+        </div>
+        <div id="base_shape" border="1"></div>
+    </div>
+    <div>+</div>
+    <div class="fractal">
+        <div>
+            <select class="fractal_select">
+            {% for fractal in fractals %}
+                <option value="{{ fractal.no }}">{{ fractal.title }}</option>
+            {% endfor %}
+            </select>
+        </div>
+        <div class="base_fractal" border="1">
+        </div>
+    </div>
+    <div>
+        <div>
+            <button id="Plus">+</button>
+        </div>
+        <div>
+            <button id="EQ">=</button>
+        </div>
+    </div>
+</div>
+<div id="link"></div>
+<div class="box">
+    <div id="result"></div>
+    <div>
+        <div>
+            <select id="stroke">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected="selected">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </div>
+        <div>
+            <button id="Up">Up</button>
+        </div>
+        <div>
+            <button id="Left">Left</button>
+            <button id="Right">Right</button>
+        </div>
+        <div>
+            <button id="Down">Down</button>
+        </div>
+        <div>
+            <button id="Zoomin"/> + </button>
+            <button id="Zoomout"/> - </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

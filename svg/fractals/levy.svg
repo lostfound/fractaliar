@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg>
+
+<svg width="120" height="100"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ev="http://www.w3.org/2001/xml-events">
+   <title data-name="levy">Levy</title>
+
+   <defs>
+        <g id="levy_rec" data-type="fractal">
+            <line class="frdef" x1="1" y1="1" x2="101" y2="1" stroke="none"/>
+            <line class="frline" x1="1" y1="1" x2="51" y2="51" />
+            <line class="frline" x1="51" y1="51" x2="101" y2="1" />
+        </g>
+   </defs>
+   <g id="name" value="koshi"/>
+   <use x="7" y="27" id="svg_7" fill="none" stroke="black" xlink:href="#levy_rec"/>
+</svg>
+

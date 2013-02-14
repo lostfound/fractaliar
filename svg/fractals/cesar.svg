@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg>
+
+<svg width="110" height="60"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ev="http://www.w3.org/2001/xml-events">
+   <title data-name="cesaro">Cesàro</title>
+
+   <defs>
+        <g id="cesaro_rec" data-type="fractal">
+            <line class="frdef"  x1="0.01"  y1="0" x2="100" y2="0" stroke="none"/>
+            <line class="frline" x1="0"  y1="0" x2="48" y2="0" />
+            <line class="frline" x1="48" y1="0" x2="50" y2="48" />
+            <line class="frline" x2="53" y2="0" x1="50" y1="48" />
+            <line class="frline" x2="100" y2="0" x1="53" y1="0" />
+        </g>
+   </defs>
+   <use x="7" y="7" fill="none" stroke="black" xlink:href="#cesaro_rec"/>
+</svg>
+
