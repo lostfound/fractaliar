@@ -5,15 +5,23 @@
   box-orient: horizontal;
   border: 1px solid #555;
 }
-.box > div:nth-child(2n+2) {
+#result {
+  cursor: move;
+}
+#graph {
+  width: 900px;
+  height: 130px;
+  overflow-x: auto;
+}
+#graph > div:nth-child(2n+2) {
   background: white;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 30px;
 }
-.box > div:nth-child(4n-1) {
+#graph > div:nth-child(4n-1) {
   background: #CFC;
 }
-.box > div:nth-child(4n-3) {
+#graph > div:nth-child(4n-3) {
   background: #CCF;
 }

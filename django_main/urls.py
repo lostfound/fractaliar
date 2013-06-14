@@ -10,7 +10,6 @@ urlpatterns = patterns('',
     url(r'^fractal$', views.fractal, name='fractal'),
     url(r'^shape$', views.shape, name='shape'),
     url(r'^gen$', views.gen, name='gen'),
-    url('^404testing/$', views.index, name='index'),
     # Examples:
     # url(r'^$', 'fractarial.views.home', name='home'),
     # url(r'^fractarial/', include('fractarial.foo.urls')),
@@ -21,3 +20,5 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
 )
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+urlpatterns += staticfiles_urlpatterns()

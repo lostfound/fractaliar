@@ -3,3 +3,5 @@ all: ../../static/index.css ../../static/svgfractal.css
 		lessc $^ -o $@
 ../../static/svgfractal.css: svgfractal.less
 		lessc $^ -o $@
+clean: 
+		rm ../../static/index.css

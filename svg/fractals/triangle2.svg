@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg>
+
+<svg width="90" height="90"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ev="http://www.w3.org/2001/xml-events">
+   <title data-name="tri2">Triangle v2</title>
+   <defs>
+        <g id="tri2_rec" data-type="fractal" >
+            <line class="frdef" x2="20" y2="30" x1="40" y1="30" stroke="none" />
+            <line class="frline" x1="20" y1="30" x2="40" y2="21.05572809000084" />
+            <line class="frline" x1="40" y1="21.05572809000084" x2="40" y2="38.94427190999916"/>
+            <line class="frline" x1="40" y1="38.94427190999916" x2="20" y2="30"/>
+        </g>
+   </defs>
+   <use xlink:href="#tri2_rec" stroke-width="1" stroke="black" transform="scale(2) translate(-10,-10)" fill="none"/>
+</svg>
+

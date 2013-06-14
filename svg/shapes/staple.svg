@@ -8,9 +8,9 @@ xmlns:ev="http://www.w3.org/2001/xml-events">
    <title data-name="staple" data-type="shape">Staple</title>
    <defs>
         <g id="main" >
-            <line class="frline" x1="99" y1="1" x2="99" y2="99" />
-            <line class="frline" x1="99" y1="99" x2="1" y2="99" />
-            <line class="frline" x1="1"  y1="99" x2="1" y2="1" />
+            <line class="frline" x1="99" y1="1"  x2="99" y2="99" />
+            <line class="frline" x1="99" y1="99" x2="1"  y2="99" />
+            <line class="frline" x1="1"  y1="99" x2="1"  y2="1" />
         </g>
    </defs>
    <use x="0" y="0" fill="none" stroke="black" xlink:href="#main"/>

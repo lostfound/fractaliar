@@ -37,6 +37,11 @@ def fractal(request):
 def gen(request):
     sno = int(request.GET['shape'])
     fns = [ int(i) for i in request.GET['fractals'].split('x') ]
+    if 'filename' in request.GET:
+        fname = request.GET['filename']
+        layout= request.GET['layout']
+    else:
+        fname = None
     with open(SPICKLE, 'rb') as f:
         shapes = pickle.load(f)
 
@@ -45,4 +50,6 @@ def gen(request):
     seq = [ tuple(filter(lambda x: x['no'] == sno, shapes))[0]['file'] ]
     for no in fns:
         seq.append( tuple(filter(lambda x: x['no'] == no, fractals))[0]['file'] )
+    if fname:
+        return HttpResponse ( make_love(seq, layout, fname) )
     return HttpResponse ( make_love(seq) )

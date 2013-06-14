@@ -9,9 +9,9 @@ xmlns:ev="http://www.w3.org/2001/xml-events">
 
    <defs>
         <g id="levy_rec" data-type="fractal">
-            <line class="frdef" x1="1" y1="1" x2="101" y2="1" stroke="none"/>
-            <line class="frline" x1="1" y1="1" x2="51" y2="51" />
-            <line class="frline" x1="51" y1="51" x2="101" y2="1" />
+            <line class="frdef" x1="0" y1="50" x2="100" y2="50" stroke="none"/>
+            <line class="frline" x1="0" y1="50" x2="50" y2="0" />
+            <line class="frline" x1="50" y1="0" x2="100" y2="50" />
         </g>
    </defs>
    <g id="name" value="koshi"/>

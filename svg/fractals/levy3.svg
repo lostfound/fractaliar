@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg>
+
+<svg width="120" height="100"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:ev="http://www.w3.org/2001/xml-events">
+   <title data-name="x10">x10</title>
+
+   <defs>
+        <g id="x10_rec" data-type="fractal">
+        <line class="frdef" x1="0" y1="50" x2="10" y2="50" stroke="none"/>
+        <line class="frline" x1="0" y1="50" x2="100" y2="50" />
+        </g>
+   </defs>
+   <g id="name" value="x10">
+   <use x="7" y="27" id="svg_7" fill="none" stroke="black" xlink:href="#x10_rec"/>
+   </g>
+</svg>
+

@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 {% block scripts %}
     <script src="static/index.js"></script>
-    <link rel="stylesheet" href="static/svgfractal.css" type="text/css" />
     <link rel="stylesheet" href="static/index.css" type="text/css" />
+    <link rel="stylesheet" href="static/svgfractal.css" type="text/css" />
+    <script type="text/javascript" src="static/farbtastic.js"></script>
+     <link rel="stylesheet" href="static/farbtastic.css" type="text/css" />
 {% endblock %}
 {% block body %}
-<div class="box" id="formula">
+<div class="box" id="graph" id="formula">
     <div class="item">
         <div>
             <select id="shape_select">
@@ -14,7 +16,7 @@
             {% endfor %}
             </select>
         </div>
-        <div id="base_shape" border="1"></div>
+        <div class="svg_preview_box" id="base_shape" border="1"></div>
     </div>
     <div>+</div>
     <div class="fractal">
@@ -25,7 +27,7 @@
             {% endfor %}
             </select>
         </div>
-        <div class="base_fractal" border="1">
+        <div class="base_fractal svg_preview_box " border="1">
         </div>
     </div>
     <div>
@@ -35,12 +37,21 @@
         <div>
             <button id="EQ">=</button>
         </div>
+        <div>
+            <button id="RM">-</button>
+        </div>
     </div>
 </div>
 <div id="link"></div>
 <div class="box">
     <div id="result"></div>
     <div>
+        <div>
+            <select id="Layout">
+                <option value="0">0</option>
+                <option value="NEW">New</option>
+            </select>
+        </div>
         <div>
             <select id="stroke">
                 <option value="1">1</option>
@@ -64,7 +75,10 @@
         <div>
             <button id="Zoomin"/> + </button>
             <button id="Zoomout"/> - </button>
+            <button id="Rotate"/> 10 &deg;</button>
+            <button id="deRotate"/> -10 &deg;</button>
         </div>
+        <div id="picker"></div>
     </div>
 </div>
 {% endblock %}

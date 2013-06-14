@@ -1,13 +1,14 @@
-#formula .frdef {
+.svg_preview_box .frdef {
   marker-end: url(markers.svg#MarkerArrowEnd);
   stroke-dasharray: 2 10;
   stroke: blue;
   stroke-width: 3;
 }
-#formula .frline {
+.svg_preview_box .frline {
+  marker-end: url(markers.svg#MarkerArrowEnd);
   stroke: red;
   stroke-width: 1;
 }
-#formula .frline[data-flipy] {
-  stroke: deepskyblue;
+.svg_preview_box .frline[data-flipy] {
+  marker-start: url(markers.svg#MarkerArrowDown);
 }

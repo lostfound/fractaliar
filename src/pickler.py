@@ -12,7 +12,7 @@ SHCDIR="svg/shapes"
 fractals = []
 shapes = []
 fr_files = listdir(FDIR)
-for n,fname in enumerate( fr_files):
+for n,fname in enumerate( sorted(fr_files) ):
     doc = parse(os.path.join(FDIR, fname))
     title = doc.getElementsByTagName('title')[0]
     fractal_name = title.attributes['data-name'].value
