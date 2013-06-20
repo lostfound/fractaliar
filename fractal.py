@@ -5,7 +5,7 @@ from xml.sax import make_parser, handler, SAXParseException
 from xml.dom.minidom import Document, parse
 from math import pi, sin,cos,sqrt, acos, asin
 from time import time
-import os.path.abspath
+from os.path import abspath
 import sys
 class Line:
     def __init__(s, attrs):
