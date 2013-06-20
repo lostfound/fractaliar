@@ -2,9 +2,10 @@
 from django.http import HttpResponse
 from django.template import Context, loader
 from fractal import make_love
-import pickle
-PICKLE ='svg/fractals.pickle'
-SPICKLE='svg/shapes.pickle'
+import pickle, os
+PROJECT_DIR = os.path.abspath( os.path.join( os.path.dirname(__file__), '..') )
+PICKLE ='{0}/svg/fractals.pickle'.format(PROJECT_DIR)
+SPICKLE='{0}/svg/shapes.pickle'.format(PROJECT_DIR)
 
 def index(request):
     template = loader.get_template('index.html')
