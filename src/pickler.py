@@ -10,9 +10,9 @@ if sys.version_info[0] == 2:
 
 SDIR = os.path.abspath('../svg')
 FDIR = os.path.abspath('../svg/fractals')
-CDIR = os.path.abspath('svg/fractals')
+CDIR = os.path.abspath('../svg/fractals')
 SHDIR= os.path.abspath( "../svg/shapes")
-SHCDIR= os.path.abspath("svg/shapes")
+SHCDIR= os.path.abspath("../svg/shapes")
 fractals = []
 shapes = []
 fr_files = listdir(FDIR)

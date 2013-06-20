@@ -5,6 +5,7 @@ from xml.sax import make_parser, handler, SAXParseException
 from xml.dom.minidom import Document, parse
 from math import pi, sin,cos,sqrt, acos, asin
 from time import time
+import sys
 class Line:
     def __init__(s, attrs):
         xxyy = [float(attrs[k]) for k in ('x1','x2', 'y1', 'y2')]
@@ -104,7 +105,11 @@ class SVGFractal(handler.ContentHandler):
         src = parse(s.filename)
         defs = src.getElementsByTagName('defs')[0]
         for g in defs.getElementsByTagName('g'):
-            if 'id' in g.attributes and g.attributes['id'].value == s.rec_name:
+            if sys.version_info[0] == 2:
+                if g.attributes.has_key('id') and g.attributes['id'].value == s.rec_name:
+                    s.put_title(titles, dom, 0, layout)
+                    return g
+            elif 'id' in g.attributes and g.attributes['id'].value == s.rec_name:
                 s.put_title(titles, dom, 0, layout)
                 return g
 
@@ -221,13 +226,19 @@ def make_SVG():
 
 def getByID(root, tag, idv):
     for e in root.getElementsByTagName(tag):
-        if 'id' in e.attributes and e.attributes['id'].value == idv:
+        if sys.version_info[0] == 2:
+            if e.attributes.get('id') and e.attributes['id'].value == idv:
+                return e
+        elif 'id' in e.attributes and e.attributes['id'].value == idv:
             return e
 
 def removeLayout(root, layout):
     defs = root.getElementsByTagName('defs')[0]
     for e in root.getElementsByTagName('g') + root.getElementsByTagName('title'):
-        if 'data-layout' in e.attributes and e.attributes['data-layout'].value == str(layout):
+        if sys.version_info[0] == 2:
+            if e.attributes.has_key('data-layout') and e.attributes['data-layout'].value == str(layout):
+                e.parentNode.removeChild(e)
+        elif 'data-layout' in e.attributes and e.attributes['data-layout'].value == str(layout):
             e.parentNode.removeChild(e)
     main = getByID(root, 'g', 'main')
     use = getByID(main, 'use', 'ff{0}'.format(layout) )
