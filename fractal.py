@@ -220,7 +220,7 @@ def make_SVG():
     rect.setAttribute('y', '0')
     #g.appendChild(rect)
     svg.appendChild(g)
-    fname = os.path.abspath ( 'static/fractals/{0}.svg'.format(time()) )
+    fname = abspath ( 'static/fractals/{0}.svg'.format(time()) )
     with open(fname, "w") as f:
         new.writexml(f, newl="\n", addindent="    ", indent="    ")
     return fname
