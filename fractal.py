@@ -5,6 +5,7 @@ from xml.sax import make_parser, handler, SAXParseException
 from xml.dom.minidom import Document, parse
 from math import pi, sin,cos,sqrt, acos, asin
 from time import time
+import os.path.abspath
 import sys
 class Line:
     def __init__(s, attrs):
@@ -219,7 +220,7 @@ def make_SVG():
     rect.setAttribute('y', '0')
     #g.appendChild(rect)
     svg.appendChild(g)
-    fname = 'static/fractals/{0}.svg'.format(time())
+    fname = os.path.abspath ( 'static/fractals/{0}.svg'.format(time()) )
     with open(fname, "w") as f:
         new.writexml(f, newl="\n", addindent="    ", indent="    ")
     return fname
