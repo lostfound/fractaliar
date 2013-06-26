@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title data-name="polygon_3" data-type="fractal">
+    3th Polygon
+  </title>
+  <defs><g data-type="fractal" id="polygon_3_rec"><line class="frdef" x1="99.0" x2="25.50000000000001" y1="50.0" y2="92.4352447854375"></line><line class="frline" x1="99.0" x2="25.50000000000001" y1="50.0" y2="92.4352447854375"></line><line class="frline" x1="25.50000000000001" x2="25.49999999999998" y1="92.4352447854375" y2="7.564755214562517"></line><line class="frline" x1="25.49999999999998" x2="99.0" y1="7.564755214562517" y2="50.0"></line></g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#polygon_3_rec" y="0"></use></svg>

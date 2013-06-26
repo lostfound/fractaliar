@@ -302,7 +302,7 @@ def make_love(sequence, layout=0, name=None):
     with open(fname, "w") as f:
         new.writexml(f, newl="\n", addindent="    ", indent="    ")
     stripFile(fname)
-    return fname
+    return "static/fractals/" + os.path.basename(fname)
 
 
 if __name__=='__main__':

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title data-name="polygon_7" data-type="shape">
+    7th Polygon
+  </title>
+  <defs><g data-type="shape" id="main"><line class="frline" x1="99.0" x2="80.55100029107794" y1="50.0" y2="88.30974264093345"></line><line class="frline" x1="80.55100029107794" x2="39.096474236140594" y1="88.30974264093345" y2="97.77146769690935"></line><line class="frline" x1="39.096474236140594" x2="5.8525254727814655" y1="97.77146769690935" y2="71.26030321676035"></line><line class="frline" x1="5.8525254727814655" x2="5.852525472781458" y1="71.26030321676035" y2="28.73969678323966"></line><line class="frline" x1="5.852525472781458" x2="39.09647423614059" y1="28.73969678323966" y2="2.2285323030906454"></line><line class="frline" x1="39.09647423614059" x2="80.55100029107794" y1="2.2285323030906454" y2="11.690257359066536"></line><line class="frline" x1="80.55100029107794" x2="99.0" y1="11.690257359066536" y2="50.0"></line></g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#main" y="0"></use></svg>

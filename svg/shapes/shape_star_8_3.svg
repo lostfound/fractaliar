@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title data-name="star_8_3" data-type="shape">
+    {8,3} Star
+  </title>
+  <defs><g id="main"><line class="frline" x1="15.351767721859176" x2="49.99999999999999" y1="84.64823227814082" y2="1.0"></line><line class="frline" x1="49.99999999999999" x2="84.64823227814082" y1="1.0" y2="84.64823227814082"></line><line class="frline" x1="84.64823227814082" x2="1.0" y1="84.64823227814082" y2="50.00000000000001"></line><line class="frline" x1="1.0" x2="84.64823227814082" y1="50.00000000000001" y2="15.351767721859161"></line><line class="frline" x1="84.64823227814082" x2="50.0" y1="15.351767721859161" y2="99.0"></line><line class="frline" x1="50.0" x2="15.351767721859161" y1="99.0" y2="15.351767721859176"></line><line class="frline" x1="15.351767721859161" x2="99.0" y1="15.351767721859176" y2="50.0"></line><line class="frline" x1="99.0" x2="15.351767721859176" y1="50.0" y2="84.64823227814082"></line></g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#main" y="0"></use></svg>
