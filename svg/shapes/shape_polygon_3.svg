@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title data-name="polygon_3" data-type="shape">
+    3th Polygon
+  </title>
+  <defs><g data-type="shape" id="main"><line class="frline" data-flipy="1" x1="92.43524478543749" x2="50.000000000000014" y1="74.5" y2="1.0"></line><line class="frline" data-flipy="1" x1="50.000000000000014" x2="7.564755214562489" y1="1.0" y2="74.49999999999997"></line><line class="frline" data-flipy="1" x1="7.564755214562489" x2="92.43524478543749" y1="74.49999999999997" y2="74.5"></line></g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#main" y="0"></use></svg>

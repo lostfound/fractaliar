@@ -3,4 +3,9 @@
   <title data-name="polygon_3" data-type="fractal">
     3th Polygon
   </title>
-  <defs><g data-type="fractal" id="polygon_3_rec"><line class="frdef" x1="99.0" x2="25.50000000000001" y1="50.0" y2="92.4352447854375"></line><line class="frline" x1="99.0" x2="25.50000000000001" y1="50.0" y2="92.4352447854375"></line><line class="frline" x1="25.50000000000001" x2="25.49999999999998" y1="92.4352447854375" y2="7.564755214562517"></line><line class="frline" x1="25.49999999999998" x2="99.0" y1="7.564755214562517" y2="50.0"></line></g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#polygon_3_rec" y="0"></use></svg>
+  <defs><g data-type="fractal" id="polygon_3_rec">
+  <line class="frdef" data-flipy="1" x1="7.564755214562489" x2="92.43524478543749" y1="74.49999999999997" y2="74.5"></line>
+  <line class="frline" data-flipy="1" x1="92.43524478543749" x2="50.000000000000014" y1="74.5" y2="1.0"></line>
+  <line class="frline" data-flipy="1" x1="50.000000000000014" x2="7.564755214562489" y1="1.0" y2="74.49999999999997"></line>
+  <line class="frline" data-flipy="1" x1="7.564755214562489" x2="92.43524478543749" y1="74.49999999999997" y2="74.5"></line>
+  </g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#polygon_3_rec" y="0"></use></svg>

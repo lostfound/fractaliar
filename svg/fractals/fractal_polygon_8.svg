@@ -3,4 +3,14 @@
   <title data-name="polygon_8" data-type="fractal">
     8th Polygon
   </title>
-  <defs><g data-type="fractal" id="polygon_8_rec"><line class="frdef" x1="99.0" x2="84.64823227814082" y1="50.0" y2="84.64823227814082"></line><line class="frline" x1="99.0" x2="84.64823227814082" y1="50.0" y2="84.64823227814082"></line><line class="frline" x1="84.64823227814082" x2="50.0" y1="84.64823227814082" y2="99.0"></line><line class="frline" x1="50.0" x2="15.351767721859176" y1="99.0" y2="84.64823227814082"></line><line class="frline" x1="15.351767721859176" x2="1.0" y1="84.64823227814082" y2="50.00000000000001"></line><line class="frline" x1="1.0" x2="15.351767721859161" y1="50.00000000000001" y2="15.351767721859176"></line><line class="frline" x1="15.351767721859161" x2="49.99999999999999" y1="15.351767721859176" y2="1.0"></line><line class="frline" x1="49.99999999999999" x2="84.64823227814082" y1="1.0" y2="15.351767721859161"></line><line class="frline" x1="84.64823227814082" x2="99.0" y1="15.351767721859161" y2="50.0"></line></g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#polygon_8_rec" y="0"></use></svg>
+  <defs><g data-type="fractal" id="polygon_8_rec">
+  <line class="frdef" data-flipy="1" x1="31.248511814110614" x2="68.75148818588941" y1="95.27009709305305" y2="95.27009709305304"></line>
+  <line class="frline" data-flipy="1" x1="68.75148818588941" x2="95.27009709305305" y1="95.27009709305304" y2="68.75148818588939"></line>
+  <line class="frline" data-flipy="1" x1="95.27009709305305" x2="95.27009709305304" y1="68.75148818588939" y2="31.248511814110593"></line>
+  <line class="frline" data-flipy="1" x1="95.27009709305304" x2="68.7514881858894" y1="31.248511814110593" y2="4.729902906946947"></line>
+  <line class="frline" data-flipy="1" x1="68.7514881858894" x2="31.248511814110596" y1="4.729902906946947" y2="4.729902906946947"></line>
+  <line class="frline" data-flipy="1" x1="31.248511814110596" x2="4.729902906946947" y1="4.729902906946947" y2="31.248511814110618"></line>
+  <line class="frline" data-flipy="1" x1="4.729902906946947" x2="4.729902906946954" y1="31.248511814110618" y2="68.75148818588941"></line>
+  <line class="frline" data-flipy="1" x1="4.729902906946954" x2="31.248511814110614" y1="68.75148818588941" y2="95.27009709305305"></line>
+  <line class="frline" data-flipy="1" x1="31.248511814110614" x2="68.75148818588941" y1="95.27009709305305" y2="95.27009709305304"></line>
+  </g></defs><use fill="none" id="svg_7" stroke="black" x="0" xlink:href="#polygon_8_rec" y="0"></use></svg>
